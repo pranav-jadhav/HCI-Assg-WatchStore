@@ -1,0 +1,167 @@
+.navbar-text{
+  font-style: italic;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+.slider-area {
+  overflow: hidden;
+  background-color: #f0f0f2;
+}
+
+.slider-area .hero__img {
+  position: relative
+}
+
+.slider-area .hero__caption h1 {
+  text-transform: normal;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 26px
+}
+
+.slider-area .hero__caption p {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 39px;
+  color: #212025;
+  margin-bottom: 60px;
+  padding-right: 50px
+}
+
+.align-j p{
+  text-align: justify;
+}
+
+.slider-area .hero-cap h2 {
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: capitalize
+}
+
+.new-product-area{
+  padding: 10%;
+}
+
+.section-title{
+  padding: 0 7% 7% 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.product-caption h3{
+  color: #444444;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 7% 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.gallery-area .single-gallery {
+  position: relative;
+  overflow: hidden
+}
+
+.gallery-area .single-gallery::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(1, 10, 28);
+  opacity: 0;
+  z-index: 1;
+}
+
+
+.gallery-area .single-gallery .gallery-img {
+  transform: scale(1.06);
+}
+
+.gallery-area .single-gallery .big-img {
+  position: relative;
+  height: 690px;
+  background-size: cover;
+}
+
+.gallery-area .single-gallery .small-img {
+  position: relative;
+  height: 330px;
+  background-size: cover;
+}
+
+.popular-items{
+  padding: 7%;
+}
+
+.popular-caption{
+  padding: 3%;
+  padding-top: 7%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footer-bg{
+  background-color: #000000;
+  padding: 3% 5%;
+}
+
+.footer-list{
+  list-style-type: none;
+  color: white;
+}
+
+.footer-list-item{
+  padding-bottom: 2.5%;
+}
+
+.list-head{
+  color: #686b78;
+}
+
+.download-image-footer{
+  width: 70%;
+  padding: 3%;
+}
+
+.footer2-img{
+  width: 40%;
+  align-content: center;
+}
+
+.footer2-cr{
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.about-main{
+  padding: 10%;
+}
+
+.about h2{
+  padding: 10%;
+  text-align: justify;
+}
+
+.about h4{
+  margin: 3% 0;
+  text-align: left;
+  padding-bottom: 0;
+  color: orange;
+}
+
+.about p{
+  margin-bottom: 0;
+  padding-bottom: 3%;
+  text-align: justify;
+}
+
+.current-page {
+  font-style: bold;
+}
+
+.contact{
+  padding: 7% 15%;
+  text-align: left;
+}
