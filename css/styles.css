@@ -165,3 +165,40 @@
   padding: 7% 15%;
   text-align: left;
 }
+
+form{
+  margin-left: 10%;
+}
+
+.forms{
+  font-size: 1.75rem;
+  margin-left: 10%;
+  margin: 3%;
+  padding: 2%;
+  border: solid;
+  border-radius: 15px;
+}
+
+.forms h4{
+  text-align: center;
+}
+
+.forms div{
+  margin: 2%;
+}
+
+.forms input{
+  padding: 0.3% 1%;
+  border-radius: 10px;
+  margin-left: 0.5%;
+  width: 50%;
+}
+
+.forms button{
+  margin: 2%;
+  width: 10%;
+  height: 7%;
+  background-color: orange;
+  outline: none;
+  border-radius: 5px;
+}
